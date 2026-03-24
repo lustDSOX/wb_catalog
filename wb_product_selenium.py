@@ -1,14 +1,8 @@
 import asyncio
-import json
 import sys
 import undetected_chromedriver as uc
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.service import Service
 from driver_utils import TabManager, create_stealth_driver
 import random
-from math import ceil
 from tqdm import tqdm
 from openpyxl import Workbook
 
